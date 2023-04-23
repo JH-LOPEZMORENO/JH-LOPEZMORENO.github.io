@@ -1,0 +1,43 @@
+#ball{
+z-index: 5;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: blue;
+}
+
+#ball1{
+z-index: 5;
+position: absolute;
+left: 10px;
+top: 20px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: yellow;
+}
+
+#ball2{
+z-index: 5;
+position: absolute;
+left: 50px;
+top: 300px;
+width: 300px;
+height: 3000px;
+border-radius: 50%;
+background: red;
+}
+
+#ball3{
+z-index: 5;
+position: absolute;
+left: 250px;
+top: 40px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: green;
+}
