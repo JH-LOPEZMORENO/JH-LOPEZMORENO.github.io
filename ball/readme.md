@@ -6,11 +6,11 @@ Simulation - ball movement; este es un desarrollo en Javascript que permite util
 
 ## Documentation
 
-Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos y realizar rebotes cuando llegan al borde de los limites definidos.
+Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos y realizar rebotes cuando llegan al borde de los limites definidos en el browser.
 
 [Docs for version 1](https://jh-lopezmoreno.github.io/ball/docs)
 
-### Para mayor información se describe a cada archivo considerado en este desarrollo:
+### Para mayor información se describe a cada archivo considerado en este desarrollo, los elementos utilizados, objetos y funciones javascript para generar movimiento:
 
 I. En el archivo index.html
    
@@ -21,13 +21,13 @@ I. En el archivo index.html
 
 II. En el archivo ball.js
    
-   En este se ha escrito el código de la solución de los movimientos del elemento "ball" y se puede resalatar algunas instrucciones utilizadas:
+   En este se ha escrito el código de la solución de los movimientos del elemento "ball" y se puede resaltar algunas instrucciones utilizadas:
 
    a) Se han definido todas la variables que se han considerado en la logica del programa.
    
    b) Se ha creado la funcion moveBall() para cambiar la posición del elemento HTML "ball".
 
-   c) Finalmente, con setInterval se invoca a la función moveBall() cada 100ms para similar el movimiento.
+   c) Finalmente, con setInterval se invoca a la función moveBall() cada 100ms para simular el movimiento.
 
 III. En el archivo style.css
    
@@ -36,7 +36,7 @@ III. En el archivo style.css
 
 ## License
 
-Simulation - ball movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución economica, su filosofia es compartir para beneficio de todos en el proceso de aprendizaje.
+Simulation - ball movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje.
 
 ## URL del simulador de pelotas en rebote.
 
