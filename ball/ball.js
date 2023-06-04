@@ -151,3 +151,4 @@ if (reverseY3===false){
 
 // This call the moveBall function every 100ms
 setInterval(moveBall, 100);
+console.log("Hola Mundo");
