@@ -1,28 +1,30 @@
-<h1><img src="" alt="Simulation - ball movement" width="50%"></h1>
+<h1><img src="" alt="Simulation - Pacmen" width="50%"></h1>
 
 > Version 1.0
 
-Simulation - ball movement; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para generar su movimiento y rebote.
+Simulation - Pacmen; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para generar su movimiento y rebote.
 
 ## Documentation
 
 Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos y realizar rebotes cuando llegan al borde de los limites definidos en el browser.
 
-[Docs for version 1](https://jh-lopezmoreno.github.io/ball/docs)
+[Docs for version 1](https://jh-lopezmoreno.github.io/pacmen/docs)
 
 ### Para mayor información se describe a cada archivo considerado en este desarrollo, los elementos utilizados, objetos y funciones javascript para generar movimiento:
 
 I. En el archivo index.html
    
-   a) Aqui se han invocado a los elementos de Style en donde estan definidos los objetos para los distintos "ball" considerados.
-      <link rel="stylesheet" href="./style.css">
+   a) Se ha definido el elemento que hace referencia al codigo javascript para generar los movimientos de "Pacmen".
+   b) Asismismo, se han incluido a evento para los botones ( onclick='makeOne()' | onclick='update()' ), tanto para generar los "Pacmen" como para generar 
+      la simulación de los movimientos y de los rebotes.
 
-   b) Tambien, se ha definido el elemento que hace referencia al codigo javascript para generar los movimientos.
-
-II. En el archivo ball.js
+II. En el archivo pacmen.js
    
-   En este se ha escrito el código de la solución de los movimientos del elemento "ball" y se puede resaltar algunas instrucciones utilizadas:
+   Se ha escrito varias funciones para realizar la simulación de "Pacmen" como son las principales:
 
+   a) makePac(); crear las figuras de "Pacmen" de forma aleatoria.
+   b) update(); logica que permite simular mover "Pacmen" en el DOM.
+   c) checkCollisions(item); logica que permite simular el choque en los bordes y se produzca un rebote aleatorio.
    a) Se han definido todas la variables que se han considerado en la logica del programa.
    
    b) Se ha creado la funcion moveBall() para cambiar la posición del elemento HTML "ball".
