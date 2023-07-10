@@ -1,27 +1,28 @@
-<h1><img src="" alt="Simulation - ball movement" width="50%"></h1>
+<h1><img src="" alt="Simulation - Moving Eyes" width="50%"></h1>
 
 > Version 1.0
 
-Simulation - ball movement; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para generar su movimiento y rebote.
+Simulation - Ayes movement; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para generar su movimiento a evento del mouse, es decir al mover el mouse se mueve la imagen (ojos) dentro de un área especifica de las figuras o imagenes.
 
 ## Documentation
 
-Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos y realizar rebotes cuando llegan al borde de los limites definidos en el browser.
+Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos dado un movimiento del mouse y dentro los los limites de estos.
 
-[Docs for version 1](https://jh-lopezmoreno.github.io/ball/docs)
+[Docs for version 1](https://jh-lopezmoreno.github.io/eye%20movement/docs)
 
 ### Para mayor información se describe a cada archivo considerado en este desarrollo, los elementos utilizados, objetos y funciones javascript para generar movimiento:
 
 I. En el archivo index.html
    
-   a) Aqui se han invocado a los elementos de Style en donde estan definidos los objetos para los distintos "ball" considerados.
-      <link rel="stylesheet" href="./style.css">
+   a) Aqui se han invocado a los elementos de Style en donde estan definidos los objetos para los distintos "Eyes" considerados.
+      "<link rel="stylesheet" type="text/css" href="./styles.css">"
 
-   b) Tambien, se ha definido el elemento que hace referencia al codigo javascript para generar los movimientos.
+   b) Tambien, se ha definido el elemento que hace referencia al codigo javascript para generar los movimientos de "Eyes" como sigue:
+      <script src="./eyes.js"></script>
 
-II. En el archivo ball.js
+II. En el archivo eyes.js
    
-   En este se ha escrito el código de la solución de los movimientos del elemento "ball" y se puede resaltar algunas instrucciones utilizadas:
+   En este se ha escrito el código de la solución de los movimientos de los "Eyes" y se puede resaltar algunas instrucciones utilizadas:
 
    a) Se han definido todas la variables que se han considerado en la logica del programa.
    
