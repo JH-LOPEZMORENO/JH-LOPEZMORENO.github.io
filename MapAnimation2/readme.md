@@ -1,14 +1,14 @@
-<h1><img src="" alt="Simulation - ball movement" width="50%"></h1>
+<h1><img src="" alt="Real Time Bus Tracker" width="50%"></h1>
 
 > Version 1.0
 
-Simulation - ball movement; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para generar su movimiento y rebote.
+Real Time Bus Tracker; este es un desarrollo en Javascript que permite utilizar objetos e instrucciones de código para el manejo de DOM para "incrustar" mapas y marcadores. Proyecto donde consumimos API para crear un mapa y hacer tracking del recorrido de un objeto de un lugar a otro.
 
 ## Documentation
 
-Aprenda a como codificar en JavaScript para hacer simulaciones de movimiento de objetos y realizar rebotes cuando llegan al borde de los limites definidos en el browser.
+Aprenda a como codificar en JavaScript para incrustar mapas, rutas y marcadores, asimismo, nos permite consumir datos publicos a traves de API para obtener las direcciones que se usaran en el mapa para trazar su ruta y simular las paradas que ha realizado el Bus durante su recorrido.
 
-[Docs for version 1](https://jh-lopezmoreno.github.io/ball/docs)
+[Docs for version 1](https://jh-lopezmoreno.github.io/eye%20movement/docs)
 
 ### Para mayor información se describe a cada archivo considerado en este desarrollo, los elementos utilizados, objetos y funciones javascript para generar movimiento:
 
