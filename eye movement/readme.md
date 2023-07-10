@@ -40,6 +40,6 @@ III. En el archivo eyes.js
 
 Simulation - ball movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje.
 
-## URL del simulador de pelotas en rebote.
+## URL del simulador de movimiento de "Eyes".
 
 https://jh-lopezmoreno.github.io/eye%20movement/index.html
