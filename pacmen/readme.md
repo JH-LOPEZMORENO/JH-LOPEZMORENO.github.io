@@ -26,8 +26,9 @@ II. En el archivo pacmen.js
    b) update(); logica que permite simular mover "Pacmen" en el DOM.
    c) checkCollisions(item); logica que permite simular el choque en los bordes y se produzca un rebote aleatorio.
    d) Se han definido todas la variables que se han considerado en la logica del programa.
-   e) Finalmente, con las funcion nativa de Javascript "setTimeout(update, 20)" logra simular el movimiento cada 20ms y con "game.appendChild(newimg)" 
+   e) Con las funcion nativa de Javascript "setTimeout(update, 20)" logra simular el movimiento cada 20ms y con "game.appendChild(newimg)" 
       se logra adicionar nuevos "Pacmen" en el DOM.
+   f) Finalmente, para iniciar la simulación se invoca a la función del objeto pacMen.push(makePac()) de "Pacmen". 
 
 III. Los archivos o imagenes: PacMan1.png, PacMan2.png, PacMan3.png, PacMan4.png
    
