@@ -2,7 +2,7 @@
 
 > Version 1.0
 
-Simulation - Ayes movement; este es un desarrollo en Javascript que permite utilizar Style, objetos e instrucciones de código para generar su movimiento a evento del mouse, es decir al mover el mouse se mueve la imagen (iris del ojo) dentro de un área especifica de las figuras creada en Style.
+Simulation - Eyes movement; este es un desarrollo en Javascript que permite utilizar Style, objetos e instrucciones de código para generar su movimiento a evento del mouse, es decir al mover el mouse se mueve la imagen (iris del ojo) dentro de un área especifica de las figuras creada en Style.
 
 ## Documentation
 
@@ -38,7 +38,7 @@ III. En el archivo eyes.js
 
 ## License
 
-Simulation - ball movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje.
+Simulation - Eyes movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje.
 
 ## URL del simulador de movimiento de "Eyes".
 
