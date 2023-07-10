@@ -25,21 +25,18 @@ II. En el archivo pacmen.js
    a) makePac(); crear las figuras de "Pacmen" de forma aleatoria.
    b) update(); logica que permite simular mover "Pacmen" en el DOM.
    c) checkCollisions(item); logica que permite simular el choque en los bordes y se produzca un rebote aleatorio.
-   a) Se han definido todas la variables que se han considerado en la logica del programa.
+   d) Se han definido todas la variables que se han considerado en la logica del programa.
+   e) Finalmente, con las funcion nativa de Javascript "setTimeout(update, 20)" logra simular el movimiento cada 20ms y con "game.appendChild(newimg)" 
+      se logra adicionar nuevos "Pacmen" en el DOM.
+
+III. Los archivos o imagenes: PacMan1.png, PacMan2.png, PacMan3.png, PacMan4.png
    
-   b) Se ha creado la funcion moveBall() para cambiar la posición del elemento HTML "ball".
-
-   c) Finalmente, con setInterval se invoca a la función moveBall() cada 100ms para simular el movimiento.
-
-III. En el archivo style.css
-   
-   En este se definen los distintos objetos que seran utilizados desde el HTML, a cada "ball" se le ha considerado sus propiedades iniciales.
-
+   Estas imagenes .PNG son utilizadas para hacer la simulación de "Pacmen", son las que se simulan el movimiento y rebote en el DOM. 
 
 ## License
 
-Simulation - ball movement es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje.
+Simulation - Pacmen es código libre para aprendizaje inicial de JavaScript y no requiere de ninguna contribución económica, su filosofía es compartir para beneficio de todos en el proceso de aprendizaje de javascript, html y css.
 
-## URL del simulador de pelotas en rebote.
+## URL del simulador Pacmen.
 
-https://jh-lopezmoreno.github.io/ball/index.html
+https://jh-lopezmoreno.github.io/pacmen/index.html
