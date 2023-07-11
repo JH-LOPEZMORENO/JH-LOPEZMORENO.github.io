@@ -2,7 +2,7 @@
 
 > Version 1.0
 
-El presente portafolio es la recopilación de mis datos, roles profesioneales y tambien de los proyectos en los que he participado durante estos ultimos años de vida profesional.
+El presente portafolio es la recopilación de mis datos, roles profesionales y tambien de los proyectos en los que he participado durante estos ultimos años de carrera profesional.
 
 ## Documentation
 
