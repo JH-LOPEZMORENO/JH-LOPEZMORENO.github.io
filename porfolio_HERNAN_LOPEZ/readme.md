@@ -20,9 +20,9 @@ I. En el archivo index.html
       componentes y plantillas CSS, HTML y JavaScript.
 
    b) En este archivo se referencia los siguientes enlaces de Bootstrap:
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-         "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+         - href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+         - href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+         - src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 
    c) En este portafolio basicamente de Bootstrap se ha utilizado los componentes siguientes:
          - Navbar
