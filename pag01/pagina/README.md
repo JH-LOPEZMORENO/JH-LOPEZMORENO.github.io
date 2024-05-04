@@ -10,8 +10,7 @@ Esta pagina permite mostrar como se utiliza un API publicado en Internet de prod
 
 ## What data source did you use? 
 
-links: 	https://fakestoreapi.com/products
-        https://bulma.io/
+links: 	https://fakestoreapi.com/products | https://bulma.io/
 
 ## What design decisions did you make? 
 
