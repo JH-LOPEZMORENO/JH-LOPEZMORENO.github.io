@@ -38,9 +38,21 @@ https://github.com/JH-LOPEZMORENO/JH-LOPEZMORENO.github.io/tree/36f342218d343c1c
 
 ## Para crear el proyecto ejecute los siguientes comandos en CMD, luego puede sobreescribirlos:
 
-En la linea de comandos CMD ejecutar npm y responder a todas las preguntas que realiza.
+- En la linea de comandos CMD ejecutar npm y responder a todas las preguntas que realiza.
 
 npm init vite
+
+- Luego, ingresar al directorio que se a creado y ejecuta npm para instalar los componenten dependientes:
+
+npm i
+
+- Ejecute/levantar Visual Studio Code:
+
+code .
+
+-  Finalmente, ejecutar el programa:
+
+npm run dev
 
 ## Currently, two official plugins are available:
 
