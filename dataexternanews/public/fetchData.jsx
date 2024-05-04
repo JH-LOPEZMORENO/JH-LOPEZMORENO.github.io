@@ -7,15 +7,28 @@ const Pagination = ({ items, pageSize, onPageChange }) => {
   let pages = range(1, num + 1);
   const list = pages.map((page) => {
     return (
+
       <Button key={page} onClick={onPageChange} className="page-item">
         {page}
       </Button>
+
     );
   });
   return (
-    <nav>
-      <ul className="pagination">{list}</ul>
+    <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#" onClick={onPageChange} className="pagination"> Previous</a></li>
+
+      {list}
+      
+      <li class="page-item"><a class="page-link" href="#" onClick={onPageChange} className="pagination"> Next</a></li>
+    </ul>
     </nav>
+
+
+    // <nav>
+    //   <ul className="pagination">{list}</ul>
+    // </nav>
   );
 };
 
@@ -93,12 +106,13 @@ const dataFetchReducer = (state, action) => {
 
 // App that gets data from Hacker News url
 function App() {
+
   const { Fragment, useState, useEffect, useReducer } = React;
   const [query, setQuery] = useState("nodejs");
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 10;
+  const pageSize = 8;
   const [{ data, isLoading, isError }, doFetch] = useDataApi(
-    "https://newsapi.org/v2/everything?q=tesla&from=2024-03-13&sortBy=publishedAt&apiKey=64a601e615524f79abd2cb4e4c6550bb",
+    "https://newsapi.org/v2/everything?q=tesla&from=2024-04-01&sortBy=publishedAt&apiKey=64a601e615524f79abd2cb4e4c6550bb",
     {
       articles: [],
     }

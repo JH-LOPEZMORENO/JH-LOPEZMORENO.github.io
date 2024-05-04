@@ -96,7 +96,7 @@ function App() {
   const { Fragment, useState, useEffect, useReducer } = React;
   const [query, setQuery] = useState("nodejs");
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 3;
+  const pageSize = 5;
   const [{ data, isLoading, isError }, doFetch] = useDataApi(
     "https://hn.algolia.com/api/v1/search?query=nodejs",
     {
@@ -119,7 +119,7 @@ function App() {
         <ul className="list-group">
           {page.map((item) => (
             <li key={item.objectID} className="list-group-item">
-              <a href={item.url}>{item.title}</a>
+              <a href={item.url}>{item.author} || {item.title} || {item.description} </a>
             </li>
           ))}
         </ul>
