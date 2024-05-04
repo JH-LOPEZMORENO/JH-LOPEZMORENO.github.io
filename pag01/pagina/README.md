@@ -36,6 +36,12 @@ Necesito aprender y entender mas la logica de como se codifican las paginas con 
 
 https://github.com/JH-LOPEZMORENO/JH-LOPEZMORENO.github.io/tree/36f342218d343c1c87eb1881c5d717733faf2f09/pag01/pagina
 
+## Para crear el proyecto ejecute los siguientes comandos en CMD, luego puede sobreescribirlos:
+
+En la linea de comandos CMD ejecutar npm y responder a todas las preguntas que realiza.
+
+npm init vite
+
 ## Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
